@@ -1,0 +1,36 @@
+﻿生成启动时间为 2013-1-24 20:22:50。
+     1>项目“D:\vs程序\vs2010\第13章\SVM\opencv\opencv.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\opencv.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\opencv.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\opencv.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\opencv.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt svm.cpp
+         svm.cpp
+     1>d:\vs程序\vs2010\第13章\svm\opencv\svm.cpp(149): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第13章\svm\opencv\svm.cpp(167): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\opencv.exe.embed.manifest.res" Debug\opencv_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs程序\vs2010\第13章\SVM\Debug\opencv.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_core231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_highgui231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_video231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_ml231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_legacy231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_imgproc231d.lib /MANIFEST /ManifestFile:"Debug\opencv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs程序\vs2010\第13章\SVM\Debug\opencv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs程序\vs2010\第13章\SVM\Debug\opencv.lib" /MACHINE:X86 Debug\opencv.exe.embed.manifest.res
+         Debug\svm.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\opencv.exe.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\opencv.exe.embed.manifest" /manifest Debug\opencv.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\opencv.exe.embed.manifest.res" Debug\opencv_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs程序\vs2010\第13章\SVM\Debug\opencv.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_core231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_highgui231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_video231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_ml231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_legacy231d.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_imgproc231d.lib /MANIFEST /ManifestFile:"Debug\opencv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs程序\vs2010\第13章\SVM\Debug\opencv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs程序\vs2010\第13章\SVM\Debug\opencv.lib" /MACHINE:X86 Debug\opencv.exe.embed.manifest.res
+         Debug\svm.obj
+         Debug\stdafx.obj
+         opencv.vcxproj -> D:\vs程序\vs2010\第13章\SVM\Debug\opencv.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\opencv.unsuccessfulbuild”。
+         正在对“Debug\opencv.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\vs程序\vs2010\第13章\SVM\opencv\opencv.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.68
